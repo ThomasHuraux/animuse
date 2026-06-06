@@ -1,8 +1,9 @@
 # 🎹 Animuse
 
-Piano interactif pour enfants avec sons d'animaux animés, inspiré de l'univers Bluey.
+Piano interactif pour enfants avec sons d'animaux.
 
-![Animuse screenshot](public/favicon.svg)
+<img width="1255" height="717" alt="Capture d’écran 2026-06-06 à 16 21 34" src="https://github.com/user-attachments/assets/a8aa831b-041c-4a56-b60b-a27d8c08cb83" />
+
 
 ## Fonctionnalités
 
