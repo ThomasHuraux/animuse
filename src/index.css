@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fredoka One', cursive;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+/* Lottie SVG fills its container */
+.lottie-wrap svg {
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+}
+
+/* Piano key pressed */
+.key-active {
+  filter: brightness(1.25) drop-shadow(0 0 10px currentColor);
+  transform: scale(0.94) translateY(2px) !important;
+}
+
+/* Triggered via inline animation style */
+@keyframes bounce_animal {
+  0%   { transform: translateY(0) scale(1); }
+  30%  { transform: translateY(-18px) scale(1.08) rotate(-4deg); }
+  60%  { transform: translateY(-7px) scale(1.04) rotate(2deg); }
+  80%  { transform: translateY(-2px) scale(1.02); }
+  100% { transform: translateY(0) scale(1); }
+}
+
+@keyframes floatUp {
+  0%   { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(-80px) scale(1.4); }
+}
+
+/* Grass strip above keyboard */
+.grass {
+  width: 100%;
+  height: 22px;
+  background: linear-gradient(180deg, #5DD45D 0%, #3CB93C 100%);
+  border-radius: 50% 50% 0 0 / 40% 40% 0 0;
+  position: relative;
+}
+
+@keyframes sunSpin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+@keyframes cloudDrift {
+  from { transform: translateX(0px); }
+  to   { transform: translateX(40px); }
+}
+
+@keyframes keyHalo {
+  0%   { opacity: 1;   transform: scale(0.6); }
+  60%  { opacity: 0.6; transform: scale(1.1); }
+  100% { opacity: 0;   transform: scale(1.4); }
+}
+
+.grass::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0px,
+    transparent 14px,
+    #5DD45D 14px,
+    #5DD45D 18px
+  );
+  border-radius: 50%;
+  opacity: 0.7;
+}

@@ -1,0 +1,142 @@
+{
+  "session_id": "session-2026-06-06-1620",
+  "started": "2026-06-06T14:20:48.232Z",
+  "files_read": {
+    "/Users/thx/workspace/Animuse/src/App.jsx": {
+      "count": 1,
+      "tokens": 1912,
+      "first_read": "2026-06-06T14:21:06.266Z"
+    },
+    "/Users/thx/workspace/Animuse/src/hooks/useAudio.js": {
+      "count": 1,
+      "tokens": 1833,
+      "first_read": "2026-06-06T14:21:06.394Z"
+    },
+    "/Users/thx/workspace/Animuse/src/hooks/useMIDI.js": {
+      "count": 1,
+      "tokens": 409,
+      "first_read": "2026-06-06T14:21:13.403Z"
+    },
+    "/Users/thx/workspace/Animuse/src/data/presets.js": {
+      "count": 1,
+      "tokens": 864,
+      "first_read": "2026-06-06T14:21:13.832Z"
+    },
+    "/Users/thx/workspace/Animuse/src/components/PianoKeyboard.jsx": {
+      "count": 1,
+      "tokens": 1454,
+      "first_read": "2026-06-06T14:21:17.789Z"
+    },
+    "/Users/thx/workspace/Animuse/src/components/HeroAnimal.jsx": {
+      "count": 1,
+      "tokens": 1154,
+      "first_read": "2026-06-06T14:21:18.619Z"
+    },
+    "/Users/thx/workspace/Animuse/src/components/AnimalLottie.jsx": {
+      "count": 1,
+      "tokens": 451,
+      "first_read": "2026-06-06T14:21:27.940Z"
+    },
+    "/Users/thx/workspace/Animuse/src/components/PresetSelector.jsx": {
+      "count": 1,
+      "tokens": 314,
+      "first_read": "2026-06-06T14:21:28.508Z"
+    },
+    "/Users/thx/workspace/Animuse/README.md": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-06-06T14:21:34.493Z"
+    },
+    "/Users/thx/workspace/Animuse/.gitignore": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-06-06T14:23:29.086Z"
+    },
+    "/Users/thx/workspace/Animuse/package.json": {
+      "count": 1,
+      "tokens": 0,
+      "first_read": "2026-06-06T14:23:38.590Z"
+    }
+  },
+  "files_written": [
+    {
+      "file": "/Users/thx/workspace/Animuse/src/components/PianoKeyboard.jsx",
+      "action": "edit",
+      "tokens": 131,
+      "at": "2026-06-06T14:22:05.738Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/components/PianoKeyboard.jsx",
+      "action": "edit",
+      "tokens": 132,
+      "at": "2026-06-06T14:22:11.535Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/components/HeroAnimal.jsx",
+      "action": "edit",
+      "tokens": 43,
+      "at": "2026-06-06T14:22:26.882Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/components/HeroAnimal.jsx",
+      "action": "edit",
+      "tokens": 652,
+      "at": "2026-06-06T14:22:38.595Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/hooks/useAudio.js",
+      "action": "edit",
+      "tokens": 179,
+      "at": "2026-06-06T14:22:50.957Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/hooks/useAudio.js",
+      "action": "edit",
+      "tokens": 156,
+      "at": "2026-06-06T14:23:02.616Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/data/presets.js",
+      "action": "edit",
+      "tokens": 56,
+      "at": "2026-06-06T14:23:08.281Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/src/data/presets.js",
+      "action": "edit",
+      "tokens": 406,
+      "at": "2026-06-06T14:23:25.976Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/.gitignore",
+      "action": "edit",
+      "tokens": 75,
+      "at": "2026-06-06T14:23:36.351Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/README.md",
+      "action": "create",
+      "tokens": 1346,
+      "at": "2026-06-06T14:24:13.940Z"
+    },
+    {
+      "file": "/Users/thx/workspace/Animuse/.gitignore",
+      "action": "edit",
+      "tokens": 54,
+      "at": "2026-06-06T14:24:55.012Z"
+    }
+  ],
+  "edit_counts": {
+    "src/components/PianoKeyboard.jsx": 2,
+    "src/components/HeroAnimal.jsx": 2,
+    "src/hooks/useAudio.js": 2,
+    "src/data/presets.js": 2,
+    ".gitignore": 2,
+    "README.md": 1
+  },
+  "anatomy_hits": 8,
+  "anatomy_misses": 3,
+  "repeated_reads_warned": 0,
+  "cerebrum_warnings": 0,
+  "stop_count": 0
+}

@@ -1,0 +1,549 @@
+{
+  "version": 1,
+  "bugs": [
+    {
+      "id": "bug-001",
+      "timestamp": "2026-04-23T20:38:38.898Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/data/presets.js",
+      "root_cause": "Had 'lion.mp3'",
+      "fix": "Changed to 'lion.m4a'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-23T20:38:38.898Z"
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-04-23T20:48:09.600Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/components/AnimalCard.jsx",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→10 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-23T20:48:09.600Z"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-04-23T20:48:18.282Z",
+      "error_message": "Null/undefined access in ",
+      "file": "src/App.jsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-23T20:48:18.282Z"
+    },
+    {
+      "id": "bug-004",
+      "timestamp": "2026-04-24T05:22:04.413Z",
+      "error_message": "CSS fix: background",
+      "file": "src/App.jsx",
+      "root_cause": "background: 'linear-gradient(180deg, #3CB93C 0%, #2ea02e 100%)' → 'linear-gradient(180deg, #3CB93C 0%, #2ea02e 100%)', paddingBottom: 4",
+      "fix": "Changed background: 'linear-gradient(180deg, #3CB93C 0%, #2ea02e 100%)' → 'linear-gradient(180deg, #3CB93C 0%, #2ea02e 100%)', paddingBottom: 4",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T05:22:04.413Z"
+    },
+    {
+      "id": "bug-005",
+      "timestamp": "2026-04-24T05:58:58.048Z",
+      "error_message": "CSS fix: left",
+      "file": "src/components/Flowers.jsx",
+      "root_cause": "left: '91%', color: '#FFFFFF', stem: '#2ea02e', r: 4 → '78%', bottom: 1,  color: '#FFFFFF',  r: 4.5",
+      "fix": "Changed left: '91%', color: '#FFFFFF', stem: '#2ea02e', r: 4 → '78%', bottom: 1,  color: '#FFFFFF',  r: 4.5",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T05:58:58.048Z"
+    },
+    {
+      "id": "bug-006",
+      "timestamp": "2026-04-24T06:00:13.501Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/components/PresetSelector.jsx",
+      "root_cause": "Had \"flex gap-3 overflow-x-auto pb-2 px-4 snap-x snap-",
+      "fix": "Changed to \"flex justify-center gap-3 overflow-x-auto pb-2 px",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T06:00:13.502Z"
+    },
+    {
+      "id": "bug-007",
+      "timestamp": "2026-04-24T06:01:38.586Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/App.jsx",
+      "root_cause": "Had \"min-h-screen flex flex-col font-fredoka select-no",
+      "fix": "Changed to \"h-screen flex flex-col font-fredoka select-none o",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 4,
+      "last_seen": "2026-04-24T06:08:21.002Z"
+    },
+    {
+      "id": "bug-008",
+      "timestamp": "2026-04-24T06:09:52.589Z",
+      "error_message": "Wrong reference: 130 should be 80",
+      "file": "src/App.jsx",
+      "root_cause": "Used \"130\" instead of \"80\"",
+      "fix": "Changed 130 → 80",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T06:09:52.589Z"
+    },
+    {
+      "id": "bug-009",
+      "timestamp": "2026-04-24T06:10:07.862Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/components/PresetSelector.jsx",
+      "root_cause": "Had \"text-3xl leading-none\"",
+      "fix": "Changed to \"text-2xl leading-none\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T06:10:07.862Z"
+    },
+    {
+      "id": "bug-010",
+      "timestamp": "2026-04-24T06:10:15.375Z",
+      "error_message": "CSS fix: width, height, fontSize",
+      "file": "src/components/HeroAnimal.jsx",
+      "root_cause": "width: 200, → 'clamp(130px, 22vh, 190px)',; height: 200, → 'clamp(130px, 22vh, 190px)',; fontSize: 128, → 'clamp(84px, 14vh, 124px)',",
+      "fix": "Changed width: 200, → 'clamp(130px, 22vh, 190px)',; height: 200, → 'clamp(130px, 22vh, 190px)',; fontSize: 128, → 'clamp(84px, 14vh, 124px)',",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-04-24T06:10:23.312Z"
+    },
+    {
+      "id": "bug-011",
+      "timestamp": "2026-04-24T06:10:30.708Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/components/HeroAnimal.jsx",
+      "root_cause": "Had \"font-fredoka text-white/85\"",
+      "fix": "Changed to 'clamp(36px, 7vh, 54px)'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T06:10:30.709Z"
+    },
+    {
+      "id": "bug-012",
+      "timestamp": "2026-04-24T06:13:20.467Z",
+      "error_message": "CSS fix: height",
+      "file": "src/App.jsx",
+      "root_cause": "height: 80, position: 'relative' → 55, position: 'relative'",
+      "fix": "Changed height: 80, position: 'relative' → 55, position: 'relative'",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T06:13:20.467Z"
+    },
+    {
+      "id": "bug-013",
+      "timestamp": "2026-04-24T06:13:25.266Z",
+      "error_message": "CSS fix: width",
+      "file": "src/components/PianoKeyboard.jsx",
+      "root_cause": "width: '100%', maxWidth: 640, height: 140 → '100%', maxWidth: 640, height: 115",
+      "fix": "Changed width: '100%', maxWidth: 640, height: 140 → '100%', maxWidth: 640, height: 115",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T06:13:25.266Z"
+    },
+    {
+      "id": "bug-014",
+      "timestamp": "2026-04-24T12:36:29.589Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/data/presets.js",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 13→17 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T12:36:29.589Z"
+    },
+    {
+      "id": "bug-015",
+      "timestamp": "2026-04-24T12:37:29.893Z",
+      "error_message": "Wrong reference: chromaticIndex should be keyIndex",
+      "file": "src/App.jsx",
+      "root_cause": "Used \"chromaticIndex\" instead of \"keyIndex\"",
+      "fix": "Changed chromaticIndex → keyIndex",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T12:37:29.893Z"
+    },
+    {
+      "id": "bug-016",
+      "timestamp": "2026-04-24T12:43:56.674Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/data/presets.js",
+      "root_cause": "Had ', '",
+      "fix": "Changed to 'Do'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T12:43:56.674Z"
+    },
+    {
+      "id": "bug-017",
+      "timestamp": "2026-04-24T14:24:43.114Z",
+      "error_message": "Null/undefined access in ",
+      "file": "src/App.jsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T14:24:43.114Z"
+    },
+    {
+      "id": "bug-018",
+      "timestamp": "2026-04-24T17:24:00.655Z",
+      "error_message": "CSS fix: width",
+      "file": "src/components/AnimalLottie.jsx",
+      "root_cause": "width: size, height: size → size, height: size, overflow: 'hidden'",
+      "fix": "Changed width: size, height: size → size, height: size, overflow: 'hidden'",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T17:24:00.655Z"
+    },
+    {
+      "id": "bug-019",
+      "timestamp": "2026-04-24T21:03:09.467Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/hooks/useAudio.js",
+      "root_cause": "Had 'duck'",
+      "fix": "Changed to 'frog'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T21:03:09.467Z"
+    },
+    {
+      "id": "bug-020",
+      "timestamp": "2026-04-24T21:03:19.984Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/components/HeroAnimal.jsx",
+      "root_cause": "Had 'duck'",
+      "fix": "Changed to 'frog'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-24T21:03:19.984Z"
+    },
+    {
+      "id": "bug-021",
+      "timestamp": "2026-04-25T05:03:25.108Z",
+      "error_message": "CSS fix: display",
+      "file": "src/components/Mountains.jsx",
+      "root_cause": "display: 'block', width: '100%', height: 130 → 'block', width: '100%', height: 160",
+      "fix": "Changed display: 'block', width: '100%', height: 130 → 'block', width: '100%', height: 160",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-25T05:03:25.108Z"
+    },
+    {
+      "id": "bug-022",
+      "timestamp": "2026-04-25T05:03:36.542Z",
+      "error_message": "Incorrect value in code",
+      "file": "src/components/HeroAnimal.jsx",
+      "root_cause": "Had 'clamp(130px, 22vh, 190px)'",
+      "fix": "Changed to 'clamp(180px, 30vh, 280px)'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-04-25T05:03:45.392Z"
+    },
+    {
+      "id": "bug-023",
+      "timestamp": "2026-04-25T05:04:58.823Z",
+      "error_message": "CSS fix: width, position",
+      "file": "src/App.jsx",
+      "root_cause": "width: 90, height: 36, background: 'rgba(255,255,255,0.45)', borderRadius: 99 → 90, height: 36, background: 'rgba(255,255,255,0.52)', borderRadius: 99; position: 'absolute', top: -12, left: 42, width: 34, height: 34, background: 'rgba(255,255,255,0.45)', borderRadius: '50%' → 'absolute', top: -12, left: 42, width: 34, height: 34, background: 'rgba(255,255,255,0.52)', borderRadius: '50%'",
+      "fix": "Changed width: 90, height: 36, background: 'rgba(255,255,255,0.45)', borderRadius: 99 → 90, height: 36, background: 'rgba(255,255,255,0.52)', borderRadius: 99; position: 'absolute', top: -12, left: 42, width: 34, height: 34, background: 'rgba(255,255,255,0.45)', borderRadius: '50%' → 'absolute', top: -12, left: 42, width: 34, height: 34, background: 'rgba(255,255,255,0.52)', borderRadius: '50%'",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-25T05:04:58.823Z"
+    },
+    {
+      "id": "bug-024",
+      "timestamp": "2026-04-25T05:05:04.927Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/App.jsx",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 4→7 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-04-25T05:05:04.927Z"
+    },
+    {
+      "id": "bug-025",
+      "timestamp": "2026-05-18T09:36:54.495Z",
+      "error_message": "Wrong reference: SEMITONE_RATIOS should be CENTER_KEY",
+      "file": "src/hooks/useAudio.js",
+      "root_cause": "Used \"SEMITONE_RATIOS\" instead of \"CENTER_KEY\"",
+      "fix": "Changed SEMITONE_RATIOS → CENTER_KEY",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-18T09:36:54.495Z"
+    },
+    {
+      "id": "bug-026",
+      "timestamp": "2026-05-18T09:37:03.988Z",
+      "error_message": "Null/undefined access in ",
+      "file": "src/hooks/useAudio.js",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-18T09:37:03.988Z"
+    },
+    {
+      "id": "bug-027",
+      "timestamp": "2026-05-18T13:54:14.877Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/hooks/useAudio.js",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 14→19 lines (3 removed) | Also: // Dry/wet split: 70% direct + 30% reverb; reverbRef.current = { ctx, convolver: buildReverbI",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-18T13:54:21.588Z"
+    },
+    {
+      "id": "bug-028",
+      "timestamp": "2026-05-18T14:05:37.672Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/hooks/useAudio.js",
+      "root_cause": "10 lines replaced/restructured",
+      "fix": "Rewrote 19→12 lines (10 removed) | Also: if (!reverbRef.current || reverbRef.current.ctx !=; reverbRef.current = { ctx, conv: buildReverb(ctx) ",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "js"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-18T14:05:50.915Z"
+    },
+    {
+      "id": "bug-029",
+      "timestamp": "2026-05-21T12:17:38.506Z",
+      "error_message": "Null/undefined access in ",
+      "file": "../../.claude/plans/plusieurs-problemes-a-corriger-cryptic-kay.md",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "md"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-21T12:17:38.506Z"
+    },
+    {
+      "id": "bug-030",
+      "timestamp": "2026-05-21T12:19:02.962Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/App.jsx",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 13→16 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-21T12:19:02.962Z"
+    },
+    {
+      "id": "bug-031",
+      "timestamp": "2026-05-22T16:28:17.514Z",
+      "error_message": "Wrong reference: Math should be null",
+      "file": "src/App.jsx",
+      "root_cause": "Used \"Math\" instead of \"null\"",
+      "fix": "Changed Math → null",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-22T16:28:17.514Z"
+    },
+    {
+      "id": "bug-032",
+      "timestamp": "2026-05-22T16:28:25.233Z",
+      "error_message": "CSS fix: fontSize",
+      "file": "src/components/PianoKeyboard.jsx",
+      "root_cause": "fontSize: 8, color: isActive ? 'white' : '#0051A855' → 18, lineHeight: 1",
+      "fix": "Changed fontSize: 8, color: isActive ? 'white' : '#0051A855' → 18, lineHeight: 1",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 2,
+      "last_seen": "2026-05-22T16:28:30.021Z"
+    },
+    {
+      "id": "bug-033",
+      "timestamp": "2026-05-22T16:28:41.044Z",
+      "error_message": "CSS fix: transition",
+      "file": "src/components/HeroAnimal.jsx",
+      "root_cause": "transition: 'background-color 0.3s, box-shadow 0.4s', → 'filter 0.2s',",
+      "fix": "Changed transition: 'background-color 0.3s, box-shadow 0.4s', → 'filter 0.2s',",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-05-22T16:28:41.044Z"
+    },
+    {
+      "id": "bug-034",
+      "timestamp": "2026-06-06T14:22:26.884Z",
+      "error_message": "Significant refactor of ",
+      "file": "src/components/HeroAnimal.jsx",
+      "root_cause": "59 lines replaced/restructured",
+      "fix": "Rewrote 65→3 lines (59 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "jsx"
+      ],
+      "related_bugs": [],
+      "occurrences": 1,
+      "last_seen": "2026-06-06T14:22:26.884Z"
+    }
+  ]
+}
